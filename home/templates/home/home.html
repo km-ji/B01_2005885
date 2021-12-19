@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}">
+    <h4>Django Project</h4>
+    <h1>👨🏼‍💻파이썬 웹 프로젝트👩🏼‍💻 2005885 김민지</h1>
+    <style>
+        nav a{font-weight: bold}
+        nav ul li a{font-weight: bold}
+        h4{font-size: 60px;
+            background-color: lightpink;
+            font-family: 'Lobster', cursive;}
+        h1{font-size: 20px;
+            color: darkslateblue;
+            font-weight: bold;
+            font-family: 'Lobster', cursive; }
+    </style>
+
+{% endblock %}
